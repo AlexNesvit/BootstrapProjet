@@ -19,4 +19,9 @@
     top: 30vh;
     left: 50%;
     transform: translateX(-50%);
-}
+    transition: all 1s ease;
+      }
+       
+.accueil-h1:hover {
+        transform: rotate(180deg);
+      }
