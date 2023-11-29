@@ -3,3 +3,20 @@
     padding-right: 80px;
     padding-top: 30px;
 }
+.accueil-bg{
+    background-image: url('http://septiemeciel-parachutisme.fr/wp-content/uploads/2018/02/disciplines-du-parachutisme.jpg');
+     background-size: cover;
+     min-height: 96vh;
+     background-attachment: fixed;
+}
+.accueil-h1{
+    font-size: 100px ;
+    font-weight: bold ;
+    letter-spacing: 0px ;
+    text-transform: none ;
+    color: blue;
+    position: relative;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
