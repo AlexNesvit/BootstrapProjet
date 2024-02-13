@@ -121,3 +121,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+.card-container {
+  display: flex;
+  align-items: center;
+}
+.card {
+  flex: 1;
+  margin-right: 2px;
+
+}
