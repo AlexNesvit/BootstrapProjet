@@ -72,33 +72,71 @@ select {
   min-height: 2em;
 }
 
-input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
+
+/* Contact */
+body {
+  font-family: Arial, sans-serif;
 }
 
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h4 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+  width: calc(100% - 10px);
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-input[type="file"] {
-  padding: 1px 2px;
+input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
-.inline{
-  display: inline; 
+.card-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.card {
+  flex: 1;
+  margin-right: 2px;
+
+}
+
+.galerie {
+  padding: 50px;
+}
+
+.contact {
+  padding: 80px;
 }

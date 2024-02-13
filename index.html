@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bootstrap projet</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 	<header class="fixed-top">
@@ -20,29 +20,26 @@
 			  <div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="galerie.html">Galerie photo</a>
+					<a class="nav-link active" aria-current="page" href="#galerie">Galerie photo</a>
 				  </li>
 				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Les Disciplines
-						du parachutisme
+					<a class="nav-link dropdown-toggle" href="#card" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Les Disciplines du parachutisme
 					</a>
 					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="freefly.html">Le Freefly</a></li>
-					  <li><a class="dropdown-item" href="relatif.html">Le Vol Relatif</a></li>
-					  <li><a class="dropdown-item" href="freestyle.html">Le Freestyle</a></li>
-					  <li><a class="dropdown-item" href="pilotage.html">Le Pilotage sous Voile</a></li>
-					  <li><a class="dropdown-item" href="relatif.html">Le Vol Relatif Vertical</a></li>
-					  <li><a class="dropdown-item" href="voilecontact.html">Le Voile Contact</a></li>
-					  <li><a class="dropdown-item" href="voltige.html">La Voltige</a></li>
-					  <li><a class="dropdown-item" href="precis.html">La Précision d'Atterrissage</a></li>
-					  <li><a class="dropdown-item" href="wing.html">La Wingsuit</a></li>
-					  <li><a class="dropdown-item" href="souffler.html">La Soufflerie</a></li>
+					  <li><a class="dropdown-item" href="#card-freefly">Le Freefly</a></li>
+					  <li><a class="dropdown-item" href="#card">Le Vol Relatif</a></li>
+					  <li><a class="dropdown-item" href="#card">Le Freestyle</a></li>
+					  <li><a class="dropdown-item" href="#card">Le Pilotage sous Voile</a></li>
+					  <li><a class="dropdown-item" href="#card">Le Voile Contact</a></li>
+					  <li><a class="dropdown-item" href="#card">La Voltige</a></li>
+					  <li><a class="dropdown-item" href="#card">La Précision d'Atterrissage</a></li>
+					  <li><a class="dropdown-item" href="#card">La Wingsuit</a></li>
+					  <li><a class="dropdown-item" href="#card">La Soufflerie</a></li>
 					</ul>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
-					  </li>		  
+					<a class="nav-link" href="#contact">Contact</a></li>		  
 				</ul>
 			  </div>
 			</div>
@@ -72,9 +69,143 @@
 				
 				<li>4. Saut en Wingsuit : Pour les amateurs de sensations fortes, le saut en wingsuit offre une expérience de vol unique. Glissez dans les airs avec une combinaison spéciale, ressentant la liberté ultime alors que vous planerez comme un oiseau avant d'ouvrir votre parachute.</li>
 			</ul>
-	
+<section class="galerie" id="galerie">
+	<main style="margin-top: 100px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 offset-2 border">
+					<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/IMG_1894-min.JPG" class="d-block w-100" alt="1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/IMG_1892-min.JPG" class="d-block w-100" alt="2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/IMG_1896-min.JPG" class="d-block w-100" alt="3">
+              </div>
+              <div class="carousel-item">
+                <img src="img/IMG_1891-min.JPG" class="d-block w-100" alt="4">
+              </div>
+              <div class="carousel-item">
+                <img src="img/IMG_1893-min.JPG" class="d-block w-100" alt="5">
+              </div><div class="carousel-item">
+                <img src="img/IMG_0040-min(2).jpg" class="d-block w-100" alt="6">
+              </div><div class="carousel-item">
+                <img src="img/IMG_1897-min.JPG" class="d-block w-100" alt="7">
+              </div><div class="carousel-item">
+                <img src="img/IMG_1898-min.JPG" class="d-block w-100" alt="8">
+              </div><div class="carousel-item">
+                <img src="img/IMG_1899-min.JPG" class="d-block w-100" alt="9">
+              </div><div class="carousel-item">
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+				</div>
+			</div>
+		</div>   
+    </main>
+</section>
 
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<section class="card-container" id="card">
+	<div class="card" id="card-freefly" style="width: 18rem;">
+		<img src="img/freefly.jpg" class="card-img-top" alt="Le Freefly">
+		<div class="card-body">
+		  <p class="card-text">Le Freefly</p>
+		</div>
+	  </div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/relatif.jpg" class="card-img-top" alt="Le Vol Relatif">
+		<div class="card-body">
+		  <p class="card-text">Le Vol Relatif</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/freestyle.jpg" class="card-img-top" alt="Le Freestyle">
+		<div class="card-body">
+		  <p class="card-text">Le Freestyle</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/pilotage-sous-voile-1.jpg" class="card-img-top" alt="Le Pilotage sous Voile">
+		<div class="card-body">
+		  <p class="card-text">Le Pilotage</p>
+		</div>
+	  </div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/voile-contact.jpg" class="card-img-top" alt="Le Voile Contact">
+		<div class="card-body">
+		  <p class="card-text">Le Voile Contact</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/voltige.jpg" class="card-img-top" alt="La Voltige">
+		<div class="card-body">
+		  <p class="card-text">La Voltige</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/precision-datterrissage.jpg" class="card-img-top" alt="La Précision d'Atterrissage">
+		<div class="card-body">
+		  <p class="card-text">La Précision</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="img/wingsuit.jpg" class="card-img-top" alt="La Wingsuit">
+		<div class="card-body">
+		  <p class="card-text">La Wingsuit</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+			<img src="img/soufflerie.jpg" class="card-img-top" alt="La Soufflerie">
+			<div class="card-body">
+			  <p class="card-text">La Soufflerie</p>
+			</div>
+	</div>
+</section>
+<section class="contact" id="contact">
+	<h4>Formulaire d'inscription</h4>
+    <form onsubmit="return validateForm()">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" placeholder="Ecrivéz votre nom d'utilisateur"><br><br>
+
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" placeholder="Ecrivéz votre nom" required><br><br>
+
+        <label for="firstName">Prénom:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Ecrivéz votre prénom" required><br><br>
+
+        <label for="dob">Date de naissance:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="email">Adresse mail:</label>
+        <input type="email" id="email" name="email" placeholder="Ecrivéz votre adresse mail" required><br><br>
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="confirmPassword">Confirmation du mot de passe:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+        <label for="gender">Sexe:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Masculin</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Féminin</label><br><br>
+
+        <input type="submit" value="Valider">
+    </form>
+</section>
+	<script src="main.js"></script>
 </body>
 </html>
