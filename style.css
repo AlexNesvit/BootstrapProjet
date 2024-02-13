@@ -125,9 +125,18 @@ input[type="submit"]:hover {
 .card-container {
   display: flex;
   align-items: center;
+  padding: 50px;
 }
 .card {
   flex: 1;
   margin-right: 2px;
 
+}
+
+.galerie {
+  padding: 50px;
+}
+
+.contact {
+  padding: 80px;
 }
