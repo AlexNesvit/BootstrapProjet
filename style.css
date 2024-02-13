@@ -26,7 +26,7 @@
         transform: rotate(180deg);
       }
 _________
-body {
+/* body {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -34,7 +34,7 @@ body {
   color: #f5f6f7;
   font-family: Tahoma;
   font-size: 16px;
-}
+} */
 
 h1, p {
   margin: 1em auto;
@@ -72,13 +72,13 @@ select {
   min-height: 2em;
 }
 
-input, textarea {
+/* /* input, textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
-}
+} */
 
-.inline {
+/* .inline {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
@@ -101,10 +101,14 @@ input[type="file"] {
 
 .inline{
   display: inline; 
-}
+} */ 
 
 
 /* Contact */
+body {
+  font-family: Arial, sans-serif;
+}
+
 form {
   max-width: 400px;
   margin: 0 auto;
