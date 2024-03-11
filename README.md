@@ -1,1 +1,1 @@
-## Projet Bootstrap
+## <div align="center">Projet Bootstrap</div>
